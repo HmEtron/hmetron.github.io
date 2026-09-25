@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Grade Calculator</h1>
+
+    <p>
+        <strong>Enter your mark and weighting to get an overall score</strong>
+    </p>
+
+    <h2>How to use the calculator</h2>
+    <p>Add your assessments and marks<br>Enter target grade to receive average mark needed to achieve<br>Enter final assessment weighting and grade to achieve your target mark<br>*Please note that the site will tell you if your target marks are unachievable</p>
+
+    <hr>
+
+    <!-- ASSESSMENTS -->
+    <div id="assessments"></div>
+
+    <button id="addAssessment">+ Add assessment</button>
+
+    <!-- CURRENT GRADE -->
+    <h2>Current Grade</h2>
+
+    <p>
+        Overall: <span id="result">—</span>
+    </p>
+
+    <p>
+        Grade: <span id="gradeLetter">—</span>
+    </p>
+
+    <button id="calculate">Calculate grade</button>
+
+
+    <!-- TARGET GRADE -->
+    <hr>
+
+    <h2>Target Grade</h2>
+
+    <p>
+        Find out what average you need across your remaining assessments.
+    </p>
+
+    <input
+        id="targetGrade"
+        type="number"
+        placeholder="Target %"
+        min="0"
+        max="100"
+    >
+
+    <button id="calculateTarget">Calculate target</button>
+
+    <p>
+        <strong>
+            <span id="targetResult">—</span>
+        </strong>
+    </p>
+
+
+    <!-- FINAL ASSESSMENT -->
+    <hr>
+
+    <h2>Final Assessment</h2>
+
+    <p>
+        Find out what mark you need on your final assessment.
+    </p>
+
+    <input
+        id="finalTarget"
+        type="number"
+        placeholder="Target %"
+        min="0"
+        max="100"
+    >
+
+    <input
+        id="finalWeight"
+        type="number"
+        placeholder="Final assessment weight %"
+        min="0"
+        max="100"
+    >
+
+    <button id="calculateFinal">Calculate</button>
+
+    <p>
+        You need:
+        <strong>
+            <span id="finalResult">—</span>
+        </strong>
+    </p>
+
+    <p>
+        Target grade:
+        <span id="finalGradeLetter">—</span>
+    </p>
+
+    <hr>
+    
+    <h2>How it works</h2>
+    <p>Grade Calculator uses your assessment marks and their weightings to calculate your current overall grade. You can also enter your target grade to find out what average mark you need on your remaining assessments, or calculate the exact mark you need on a final assessment to reach your goal. Simply enter your assessment results, add any remaining assessments, and let the calculator do the maths for you.</p>
+
+    <h2>Example</h2>
+    <p>Imagain you have two assessments, you enter in one for 80% grade and the other for a 60% grade. Weightings 40% and 30%. The overall grade would be a 75.71% or B. <br> If you then entered in a 75% target, it would tell you that you need an average of 73.3 across your remaining asessments.<br>Then for the final grade you put in 80% target and 30% final weighing. It would tell you that you need a 90% grade to acheve the 80%.</p>
+
+    <h2>FAQ</h2>
+    <p><strong>What is a weighted grade?</strong><br>A weighted grade takes into account how much each assessment contributes to your overall result. An assessment worth 40% will have a greater impact on your final grade than one worth 10%.<br><strong>Can I use this calculator for different subjects?**</strong><br>Yes. You can use Grade Calculator for any subject that uses marks and assessment weightings.<br><strong>What if I want to reach a specific grade?**</strong><br>Enter your target percentage in the Target Grade section. The calculator will work out the average mark you need across your remaining assessments.<br><strong>Can I find out what I need on my final assessment?**</strong><br>Yes. Enter your target grade and the weighting of your final assessment, and the calculator will calculate the mark you need.<br><strong>What happens if my target is impossible?**</strong><br>If your target cannot be reached based on the assessments you have entered, the calculator will let you know that the target is unachievable.<br></p>
+
+    <h2>Privacy Policy</h2>
+    <p>
+    <strong><em>**Last updated: 25 September 2026**</em></strong><br>
+
+    Grade Calculator respects your privacy. This Privacy Policy explains how information may be handled when you use this website.<br>
+
+    <strong>Information You Provide</strong><br>
+
+    Grade Calculator does not require you to create an account or provide personal information to use the calculator. Assessment marks and other values entered into the calculator are used to perform calculations and are not intentionally collected or stored by Grade Calculator.<br>
+
+    <strong>Cookies and Advertising</strong><br>
+
+    If advertising is displayed on this website, third-party advertising providers, including Google, may use cookies, web beacons, IP addresses, or similar technologies to provide, measure, and personalise advertising.
+
+    Third-party vendors, including Google, may use cookies to serve advertisements based on a user's previous visits to this website or other websites.
+
+    Users may manage or opt out of personalised advertising through Google's advertising settings.
+
+    For more information about how Google uses data when you use websites that use Google's services, please visit Google's "How Google uses data when you use our partners' sites or apps" information.<br>
+
+    <strong>Third-Party Services</strong><br>
+
+    This website may use third-party services to provide functionality, hosting, analytics, or advertising. These services may process information in accordance with their own privacy policies.<br>
+
+    <strong>Children's Privacy</strong><br>
+
+    This website is intended as a general educational tool. We do not knowingly request personal information from children.<br>
+
+    <strong>Changes to This Privacy Policy</strong><br>
+
+    This Privacy Policy may be updated from time to time. Any changes will be posted on this page with an updated revision date.<br>
+
+    <strong>Contact</strong><br>
+
+    If you have questions about this Privacy Policy or the Grade Calculator website, please use the following contact method: Harrison.Murray13@routlook.com
+
+    <h2>Contact</h2>
+    <p><em>Feel free to reach out to me at:</em><br><strong>Email: hmetron13@gmail.com</strong></p>
+</p>
+</body>
+</html>

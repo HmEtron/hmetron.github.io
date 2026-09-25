@@ -1,0 +1,16 @@
+input {
+    width: 160px;
+    padding: 8px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.name {
+    width: 250px;
+}
+
+.mark,
+.weight {
+    width: 90px;
+}
+body { background-color: rgb(0,128,128); }
